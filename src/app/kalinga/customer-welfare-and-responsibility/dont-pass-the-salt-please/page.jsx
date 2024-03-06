@@ -4,8 +4,8 @@ import { storiesCustomerWelfareResponsibility } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Don’t Pass the Salt, Please',
-  description: 'Don’t Pass the Salt, Please | SMC Sustainability',
+  title: 'Don’t Pass The Salt, Please',
+  description: 'Don’t Pass The Salt, Please | SMC Sustainability',
 }
 
 export default function Index() {
@@ -15,7 +15,7 @@ export default function Index() {
         <article className='article'>
           <section className='description-container'>
 
-            <h1 className='orange'>Don&apos;t Pass the Salt, Please
+            <h1 className='orange'>Don&apos;t Pass The Salt, Please
             </h1>
 
             <div className='full-img'>

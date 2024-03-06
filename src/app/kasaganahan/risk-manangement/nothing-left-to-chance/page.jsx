@@ -4,8 +4,8 @@ import { storiesRiskManagement } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-    title: 'Nothing Left to Chance',
-    description: 'Nothing Left to Chance | SMC Sustainability',
+    title: 'Nothing Left To Chance',
+    description: 'Nothing Left To Chance | SMC Sustainability',
 }
 
 export default function Index() {
@@ -14,7 +14,7 @@ export default function Index() {
             <div className='block-content'>
                 <article className='article'>
                     <section className='description-container'>
-                        <h1 className='blue'>Nothing Left to Chance</h1>
+                        <h1 className='blue'>Nothing Left To Chance</h1>
 
                         <div className='full-img'>
                             <Image src="/page/petron.png" width={950} height={500} alt='Petron' />

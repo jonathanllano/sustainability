@@ -5,7 +5,7 @@ import Slider from '@/components/sliderStories'
 
 export const metadata = {
   title: 'Casting A Safety net',
-  description: 'Casting A Safety net | SMC Sustainability',
+  description: 'Casting A Safety Net | SMC Sustainability',
 }
 
 export default function Index() {

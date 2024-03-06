@@ -4,8 +4,8 @@ import { storiesSustainableSupplyChain } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Changing The Landscape for Corn Farmers',
-  description: 'Changing The Landscape for Corn Farmers | SMC Sustainability',
+  title: 'Changing The Landscape For Corn Farmers',
+  description: 'Changing The Landscape For Corn Farmers | SMC Sustainability',
 }
 
 export default function Index() {

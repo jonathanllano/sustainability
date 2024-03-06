@@ -2,8 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 
 export const metadata = {
-  title: 'Business Ethics and Compliance',
-  description: 'Business Ethics and Compliance | SMC Sustainability',
+  title: 'Business Ethics And Compliance',
+  description: 'Business Ethics And Compliance | SMC Sustainability',
 }
 
 export default function Index() {

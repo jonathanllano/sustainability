@@ -4,7 +4,7 @@ import { storiesCircularEconomy } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Closing the Loop',
+  title: 'Closing The Loop',
   description: 'Closing The Loop | SMC Sustainability',
 }
 

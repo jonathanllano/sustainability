@@ -20,7 +20,7 @@ export default function Index() {
             <h3 className='green'>Hope Flows</h3>
 
             <div className='full-img'>
-              <Image src="/page/hopeflows_banner.png" quality={100} width={950} height={500} alt='Water for All' />
+              <Image src="/page/hopeflows_banner.png" quality={100} width={950} height={500} alt='Hope Flows' />
             </div>
 
             <p>Angat Dam, Metro Manila’s main water source, may be located in Bulacan,

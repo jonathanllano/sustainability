@@ -2,8 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 
 export const metadata = {
-  title: 'Data Privacy and Security',
-  description: 'Data Privacy and Security | SMC Sustainability',
+  title: 'Data Privacy And Security',
+  description: 'Data Privacy And Security | SMC Sustainability',
 }
 
 export default function Index() {

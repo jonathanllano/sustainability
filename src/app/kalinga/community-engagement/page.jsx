@@ -110,7 +110,7 @@ export default function Index() {
               care to help our students (and their parents)
               recover emotionally.</p>
 
-            <h3 className='orange'>Local community engagements</h3>
+            <h3 className='orange'>Local Community Engagements</h3>
 
             <div className='full-img'>
               <Image style={{ borderRadius: 0 }} src="/page/local_community_engagements.png" width={830} height={1217} alt='Local community engagements' />

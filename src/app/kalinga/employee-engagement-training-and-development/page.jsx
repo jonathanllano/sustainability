@@ -14,7 +14,7 @@ export default function Index() {
       <div className='block-content'>
         <article className='article'>
           <section className='description-container'>
-            <h1>Employee Engagement,  Training, & Development</h1>
+            <h1>Employee Engagement, Training, & Development</h1>
 
             <p>We fully recognize that engagement, learning,
               and development are vital for our employees to

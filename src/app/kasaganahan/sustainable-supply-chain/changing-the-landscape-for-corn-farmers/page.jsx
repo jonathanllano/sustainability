@@ -16,7 +16,7 @@ export default function Index() {
           <section className='description-container'>
             <h1 className='blue'>Changing the Landscape for Corn Farmers</h1>
 
-            <Image style={{ borderRadius: '0' }} src="/page/MarioCumlat2.png" width={547} height={540} alt='Mario Cumlat' />
+            <Image style={{ borderRadius: '25px' }} src="/page/MarioCumlat2.png" width={547} height={540} alt='Mario Cumlat' />
 
             <p>The stories of struggle, risk, and worries
               of over 122 corn farmers across the

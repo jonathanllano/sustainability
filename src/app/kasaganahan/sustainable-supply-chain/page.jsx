@@ -192,7 +192,7 @@ export default function Index() {
               help raise their sustainability performance for
               everyone’s collective benefit.</p>
 
-            <Image style={{ borderRadius: '0' }} src="/page/MarioCumlat2.png" width={547} height={540} alt='Mario Cumlat' />
+            <Image style={{ borderRadius: '25' }} src="/page/MarioCumlat2.png" width={547} height={540} alt='Mario Cumlat' />
 
             {/* <h3 className='blue'>Changing the landscape for corn farmers</h3>
 

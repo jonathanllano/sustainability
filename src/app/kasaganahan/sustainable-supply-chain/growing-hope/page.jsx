@@ -16,7 +16,7 @@ export default function Index() {
           <section className='description-container'>
             <h1 className='blue'>Growing Hope</h1>
 
-            <Image style={{ borderRadius: '0' }} src="/page/samuel_lago_farmer.png" width={438} height={516} alt='Samuel lago' />
+            <Image style={{ borderRadius: '25px' }} src="/page/samuel_lago_farmer.png" width={438} height={516} alt='Samuel lago' />
 
 
             <p>

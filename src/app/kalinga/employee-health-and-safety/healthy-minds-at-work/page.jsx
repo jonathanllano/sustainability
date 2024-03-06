@@ -15,7 +15,7 @@ export default function Index() {
         <article className='article'>
           <section className='description-container'>
 
-            <h1 className='orange'>Healthy minds at work </h1>
+            <h1 className='orange'>Healthy Minds at Work </h1>
 
             <div className='full-img'>
               <Image src="/page/aruga.png" quality={100} width={950} height={500} alt='Aruga | Healthy minds at work' />

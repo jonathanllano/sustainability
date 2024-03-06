@@ -41,8 +41,8 @@ export default function RootLayout({ children }) {
               media-src 'self' https://smc-sustainability.c3-interactive.ph https://sxrtmwec.forapprovalonly.net/sustainability https://sxrtmwec.forapprovalonly.net;
             `}
       />
-      <meta httpEquiv="X-Frame-Options" content="SAMEORIGIN" /> */}
-
+      <meta httpEquiv="X-Frame-Options" content="SAMEORIGIN" />
+ */}
 
       <body>
         <div className='app'>

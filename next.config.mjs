@@ -27,7 +27,7 @@ const nextConfig = {
   basePath: "",
   // basePath: "/sustainability",
   // assetPrefix: "/sustainability",
-  // output: "export",
+  output: "export",
   images: {
     loader: 'custom',
     loaderFile: './src/utils/imageKitLoader.js',

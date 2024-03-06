@@ -15,7 +15,7 @@ export default function Index() {
         <article className='article'>
           <section className='description-container'>
 
-            <h1 className='orange'>An exemplary  Filipino company </h1>
+            <h1 className='orange'>An Exemplary Filipino Company </h1>
 
             <Image src="/page/an_exemplary_filipino_company.png" width={950} height={800} alt='An exemplary  Filipino company' />
 

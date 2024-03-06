@@ -45,7 +45,7 @@ export default function Index() {
               namely, meat-free balls, burger patties, sausages,
               nuggets, and giniling (ground meat). This was later
               expanded to include a vegan native line of adobo
-              flakes, tapa, and tocino as well as vegetarian ready-toeat viands bulgogi and spicy soy garlic balls. Hence,
+              flakes, tapa, and tocino as well as vegetarian ready-to-eat viands bulgogi and spicy soy garlic balls. Hence,
               whether a consumer is a fully committed vegan or a
               flexitarian looking to incorporate healthier meals in his
               diet, there is something that Veega has to offer.</p>

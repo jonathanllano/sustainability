@@ -15,7 +15,7 @@ export default function Index() {
         <article className='article'>
           <section className='description-container'>
 
-            <h1 className='green'>Casting a safety net </h1>
+            <h1 className='green'>Casting a Safety Net </h1>
 
             <div className='full-img'>
               <Image src="/page/giving.png" width={950} height={500} alt='Casting a safety net ' />

@@ -17,7 +17,7 @@ export default function Index() {
 
             <h1 className='orange'>
               <small>ABANTE BABAE  </small> <br />
-              Empowerment and agency
+              Empowerment and Agency
             </h1>
 
             <div className='full-img'>

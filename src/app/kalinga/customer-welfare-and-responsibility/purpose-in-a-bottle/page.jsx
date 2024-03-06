@@ -15,7 +15,7 @@ export default function Index() {
         <article className='article'>
           <section className='description-container'>
 
-            <h1 className='orange'>Purpose in a bottle </h1>
+            <h1 className='orange'>Purpose In A Bottle </h1>
 
             <div className='full-img'>
               <Image src="/page/SML_Bucket.png" width={950} height={500} alt='San Miguel Lights - Buckets' />

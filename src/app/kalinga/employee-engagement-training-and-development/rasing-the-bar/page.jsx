@@ -15,7 +15,7 @@ export default function Index() {
         <article className='article'>
           <section className='description-container'>
 
-            <h1 className='orange'>Raising  the bar </h1>
+            <h1 className='orange'>Raising  the Bar </h1>
 
             <div className='full-img'>
               <Image src="/page/Inside_feed_mill.png" quality={100} width={900} height={500} alt='Inside Feed Mill' />

@@ -16,7 +16,7 @@ export default function Index() {
           <section className='description-container'>
 
             <h1 className='orange'>
-              Raised without antibiotics
+              Raised Without Antibiotics
             </h1>
 
             <div className='full-img'>

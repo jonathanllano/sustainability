@@ -18,6 +18,10 @@ export default function Index() {
           <section className='description-container'>
             <h1>Water For All</h1>
 
+            <div className='full-img'>
+              <Image src="/page/waterforall_banner.png" quality={100} width={950} height={500} alt='Water for All' />
+            </div>
+
 
             {/* s
             <h3 className='green'>Water for All</h3> */}

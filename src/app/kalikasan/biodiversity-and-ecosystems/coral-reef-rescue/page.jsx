@@ -15,7 +15,7 @@ export default function Index() {
         <article className='article'>
           <section className='description-container'>
 
-            <h1 className='blue'>Coral reef rescue</h1>
+            <h1 className='blue'>Coral Reef Rescue</h1>
 
             <div className='full-img'>
               <Image src="/page/CoralRescue.png" width={950} height={500} alt='Coral Rescue' />

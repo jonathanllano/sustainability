@@ -565,7 +565,7 @@ export const modalSustainabilityTargets = [
                 text: "Enhance livability of our host communities by:",
                 list: [
                   {
-                    item: "Creating livelihood opportunities"
+                    item: "Creating livelihood opportunities;"
                   },
                   {
                     item: "Extending educational assistance and scholarship programs to schools and students; and"
@@ -819,7 +819,7 @@ export const glanceItem = [
       {
         icon: '/icons/social/4.png',
         title: '1.7:1',
-        text: 'male to female ratio in management'
+        text: 'Male to Female ratio in management'
       },
       {
         icon: '/icons/social/5.png',
@@ -1960,6 +1960,18 @@ export const storiesSustainableSupplyChain = [
     date_created: "September 20, 2023"
   },
 
+]
+
+export const storiesRiskManagement = [
+  {
+    id: 1,
+    category: "Kasaganahan",
+    title: "Nothing Left to Chance",
+    src: "/page/petron_2.png",
+    desc: "In a world where risk is the norm, Petron stands out as a company that refuses to leave anything to chance.",
+    link: "/kasaganahan/risk-manangement/nothing-left-to-chance/",
+    date_created: "September 20, 2023"
+  }
 ]
 
 // export const storiesRiskManagement = [

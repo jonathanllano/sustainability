@@ -15,7 +15,7 @@ export default function Index() {
         <article className='article'>
           <section className='description-container'>
 
-            <h1 className='orange'>Putting People  First </h1>
+            <h1 className='orange'>Putting People First </h1>
 
 
             <div className='full-img'>

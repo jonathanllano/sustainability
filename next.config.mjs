@@ -4,7 +4,7 @@ const cspHeader = `
     default-src 'self';
     script-src 'self' 'unsafe-eval' 'unsafe-inline';
     style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
-    img-src 'self' https://ik.imagekit.io blob: data:;
+    img-src 'self' https://sxrtmwec.forapprovalonly.net https://ik.imagekit.io blob: data:;
     font-src 'self' https://fonts.gstatic.com;
     connect-src 'self' https://smc-sustainability.c3-interactive.ph https://sxrtmwec.forapprovalonly.net/sustainability https://sxrtmwec.forapprovalonly.net;
     object-src 'none';
@@ -41,6 +41,12 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'sxrtmwec.forapprovalonly.net/sustainability',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'sxrtmwec.forapprovalonly.net/storage',
         port: '',
         pathname: '/**',
       },

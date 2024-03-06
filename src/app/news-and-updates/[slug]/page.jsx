@@ -107,12 +107,15 @@ export default async function Page({ params }) {
                       <div className="news-title">
                         <h1> {item.title}</h1>
                       </div>
-                      {/* {item.image && (
+                      {item.image_url && (
                         <div className='full-img'>
-                          <img src={item.image_url} alt="test" />
-
+                          <img
+                            style={{ borderRadius: "25px" }}
+                            src={`https://sxrtmwec.forapprovalonly.net${item.image_url}`}
+                          />
                         </div>
-                      )} */}
+
+                      )}
 
                       <div>
                         {item.teaser_text && (

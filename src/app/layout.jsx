@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       {/* <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://ik.imagekit.io/ fonts.googleapis.com fonts.gstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://localhost:3000/_next/static/chunks/;" /> */}
       {/* <meta httpEquiv="Content-Security-Policy" content="default-src 'self' https://ik.imagekit.io/; font-src 'self https://fonts.googleapis.com/ https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://localhost:3000/_next/static/chunks/; style-src 'self' https://localhost:3000/_next/static/css/**;" /> */}
 
-      <meta
+      {/* <meta
         httpEquiv="Content-Security-Policy"
         content={`
               default-src 'self';
@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
               media-src 'self' https://smc-sustainability.c3-interactive.ph https://sxrtmwec.forapprovalonly.net/sustainability https://sxrtmwec.forapprovalonly.net;
             `}
       />
-      <meta httpEquiv="X-Frame-Options" content="SAMEORIGIN" />
+      <meta httpEquiv="X-Frame-Options" content="SAMEORIGIN" /> */}
 
 
       <body>

@@ -5,7 +5,7 @@ import Slider from '@/components/sliderStories'
 import { storiesResourceManagement } from '@/api/api'
 
 export const metadata = {
-  title: 'Reviving our ailing rivers',
+  title: 'Reviving our Ailing Rivers',
   description: 'Reviving our ailing rivers | SMC Sustainability',
 }
 

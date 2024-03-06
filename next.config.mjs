@@ -14,12 +14,12 @@ const cspHeader = `
     block-all-mixed-content;
     upgrade-insecure-requests;
     media-src 'self' https://smc-sustainability.c3-interactive.ph https://sxrtmwec.forapprovalonly.net/sustainability https://sxrtmwec.forapprovalonly.net;  
-`;
+`
 
 const securityHeaders = [
   {
-    key: "X-Frame-Options",
-    value: "SAMEORIGIN",
+    key: 'X-Frame-Options',
+    value: 'SAMEORIGIN'
   },
 ];
 
@@ -29,29 +29,29 @@ const nextConfig = {
   // assetPrefix: "/sustainability",
   // output: "export",
   images: {
-    loader: "custom",
-    loaderFile: "./src/utils/imageKitLoader.js",
+    loader: 'custom',
+    loaderFile: './src/utils/imageKitLoader.js',
     remotePatterns: [
       {
-        protocol: "https",
-        hostname: "ik.imagekit.io",
-        port: "",
-        pathname: "/smc/**",
+        protocol: 'https',
+        hostname: 'ik.imagekit.io',
+        port: '',
+        pathname: '/smc/**',
       },
       {
-        protocol: "https",
-        hostname: "sxrtmwec.forapprovalonly.net/sustainability",
-        port: "",
-        pathname: "/**",
+        protocol: 'https',
+        hostname: 'sxrtmwec.forapprovalonly.net/sustainability',
+        port: '',
+        pathname: '/**',
       },
       {
-        protocol: "https",
-        hostname: "smc-sustainability.c3-interactive.ph",
-        port: "",
-        pathname: "/**",
+        protocol: 'https',
+        hostname: 'smc-sustainability.c3-interactive.ph',
+        port: '',
+        pathname: '/**',
       },
     ],
-    formats: ["image/avif", "image/webp"],
+    formats: ['image/avif', 'image/webp'],
   },
   reactStrictMode: true,
   swcMinify: true,
@@ -63,17 +63,17 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: "/(.*)",
+        source: '/(.*)',
         headers: [
           {
-            key: "Content-Security-Policy",
-            value: cspHeader.replace(/\n/g, ""),
+            key: 'Content-Security-Policy',
+            value: cspHeader.replace(/\n/g, ''),
           },
           // Add your custom security headers here
           ...securityHeaders,
         ],
       },
-    ];
+    ]
   },
 };
 

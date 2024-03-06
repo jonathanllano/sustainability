@@ -4,8 +4,8 @@ import { storiesEmployeeEngagementTraining } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Raising  the bar',
-  description: 'Raising  the bar | SMC Sustainability',
+  title: 'Raising The Bar',
+  description: 'Raising The Bar | SMC Sustainability',
 }
 
 export default function Index() {
@@ -15,7 +15,7 @@ export default function Index() {
         <article className='article'>
           <section className='description-container'>
 
-            <h1 className='orange'>Raising  the Bar </h1>
+            <h1 className='orange'>Raising The Bar </h1>
 
             <div className='full-img'>
               <Image src="/page/Inside_feed_mill.png" quality={100} width={900} height={500} alt='Inside Feed Mill' />

@@ -4,8 +4,8 @@ import { storiesCustomerWelfareResponsibility } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Purpose in a bottle ',
-  description: 'Purpose in a bottle  | SMC Sustainability',
+  title: 'Purpose In A Bottle ',
+  description: 'Purpose In A Bottle  | SMC Sustainability',
 }
 
 export default function Index() {

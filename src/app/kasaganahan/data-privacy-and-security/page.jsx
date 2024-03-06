@@ -12,7 +12,7 @@ export default function Index() {
       <div className='block-content'>
         <article className='article'>
           <section className='description-container'>
-            <h1>Data Privacy and Security</h1>
+            <h1>Data Privacy And Security</h1>
 
             <p>Our Data Privacy and Security Office (“DPSO”)
               was organized in 2017 to ensure the compliance

@@ -7,8 +7,8 @@ import SliderStories from '@/components/sliderStories'
 
 import Slider from './slider'
 export const metadata = {
-  title: 'Human Rights and Labor Practices',
-  description: 'Human Rights and Labor Practices | SMC Sustainability',
+  title: 'Human Rights And Labor Practices',
+  description: 'Human Rights And Labor Practices | SMC Sustainability',
 }
 
 
@@ -18,7 +18,7 @@ export default function Index() {
       <div className='block-content'>
         <article className='article'>
           <section className='description-container'>
-            <h1>Human Rights and Labor Practices</h1>
+            <h1>Human Rights And Labor Practices</h1>
 
 
             <p>We respect our workers’ rights to freedom of association and collective bargaining. In consonance with our values, we have consistently taken steps to maintain a harmonious relationship between labor and management. By the end of 2022, 34 labor unions were active in the SMC Group and approximately 14.8% of the Company’s rank and file employees were parties to collective bargaining agreements (CBA).</p>

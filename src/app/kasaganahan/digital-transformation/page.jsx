@@ -6,7 +6,6 @@ export const metadata = {
   description: 'Digital Transformation | SMC Sustainability',
 }
 
-
 export default function Index() {
   return (
     <section className='article-container'>

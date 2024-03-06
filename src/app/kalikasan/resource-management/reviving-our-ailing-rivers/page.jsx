@@ -5,8 +5,8 @@ import Slider from '@/components/sliderStories'
 import { storiesResourceManagement } from '@/api/api'
 
 export const metadata = {
-  title: 'Reviving our Ailing Rivers',
-  description: 'Reviving our ailing rivers | SMC Sustainability',
+  title: 'Reviving Our Ailing Rivers',
+  description: 'Reviving Our Ailing Rivers | SMC Sustainability',
 }
 
 export default function Index() {
@@ -19,7 +19,7 @@ export default function Index() {
             <div className='full-img'>
               <Image src="/page/RevivingAilingRvers.png" width={950} height={500} alt='Reviving our ailing rivers' />
             </div>
-            <h1 >Reviving our Ailing Rivers</h1>
+            <h1 >Reviving Our Ailing Rivers</h1>
 
             <p>In August 2022, San Miguel Corporation
               completed the Tullahan River cleanup

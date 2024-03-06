@@ -4,8 +4,8 @@ import { storiesDiversityInclusion } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Diversity and Inclusion',
-  description: 'Diversity and Inclusion | SMC Sustainability',
+  title: 'Diversity And Inclusion',
+  description: 'Diversity And Inclusion | SMC Sustainability',
 }
 
 export default function Index() {
@@ -14,7 +14,7 @@ export default function Index() {
       <div className='block-content'>
         <article className='article'>
           <section className='description-container'>
-            <h1>Diversity and Inclusion</h1>
+            <h1>Diversity And Inclusion</h1>
 
             <p>In SMC’s Human Resources Manual, Section
               9 on Recruitment and Hiring, it is stated, “All

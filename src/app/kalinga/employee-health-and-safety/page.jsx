@@ -4,8 +4,8 @@ import { storiesEmployeeHealthSafety } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Employee Health and Safety',
-  description: 'Employee Health and Safety | SMC Sustainability',
+  title: 'Employee Health And Safety',
+  description: 'Employee Health And Safety | SMC Sustainability',
 }
 
 export default function Index() {
@@ -14,7 +14,7 @@ export default function Index() {
       <div className='block-content'>
         <article className='article'>
           <section className='description-container'>
-            <h1>Employee Health and Safety</h1>
+            <h1>Employee Health And Safety</h1>
 
             <p>San Miguel has one of the most comprehensive medical benefits programs for employees. Both major and minor illnesses are covered through Health Maintenance Organization (HMO) packages, up to a pre-determined maximum limit depending on the business unit. Medical consultation, medicines and required medical devices may be availed of through the clinics located in each major facility of the Group.</p>
 

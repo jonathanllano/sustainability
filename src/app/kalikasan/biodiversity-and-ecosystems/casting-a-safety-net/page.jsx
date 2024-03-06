@@ -4,8 +4,8 @@ import { storiesBiodiversityEcosystems } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Casting a safety net',
-  description: 'Casting a safety net | SMC Sustainability',
+  title: 'Casting A Safety net',
+  description: 'Casting A Safety net | SMC Sustainability',
 }
 
 export default function Index() {
@@ -15,7 +15,7 @@ export default function Index() {
         <article className='article'>
           <section className='description-container'>
 
-            <h1 className='green'>Casting a Safety Net </h1>
+            <h1 className='green'>Casting A Safety Net </h1>
 
             <div className='full-img'>
               <Image src="/page/giving.png" width={950} height={500} alt='Casting a safety net ' />

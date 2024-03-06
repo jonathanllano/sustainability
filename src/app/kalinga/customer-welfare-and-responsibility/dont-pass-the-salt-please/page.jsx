@@ -4,8 +4,8 @@ import { storiesCustomerWelfareResponsibility } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Don’t pass the salt, please',
-  description: 'Don’t pass the salt, please | SMC Sustainability',
+  title: 'Don’t Pass the Salt, Please',
+  description: 'Don’t Pass the Salt, Please | SMC Sustainability',
 }
 
 export default function Index() {

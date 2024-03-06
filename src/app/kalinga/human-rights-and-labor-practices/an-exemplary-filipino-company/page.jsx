@@ -4,8 +4,8 @@ import { storiesHumanRightsLabor } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'An exemplary  Filipino company',
-  description: 'An exemplary  Filipino company | SMC Sustainability',
+  title: 'An Exemplary Filipino company',
+  description: 'An Exemplary Filipino company | SMC Sustainability',
 }
 
 export default function Index() {

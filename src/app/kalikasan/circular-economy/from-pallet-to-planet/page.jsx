@@ -4,8 +4,8 @@ import { storiesCircularEconomy } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'From Pallet to Planet',
-  description: 'From Pallet to Planet | SMC Sustainability',
+  title: 'From Pallet To Planet',
+  description: 'From Pallet To Planet | SMC Sustainability',
 }
 
 export default function Index() {
@@ -15,7 +15,7 @@ export default function Index() {
         <article className='article'>
           <section className='description-container'>
 
-            <h1 className='green'>From Pallet to Planet</h1>
+            <h1 className='green'>From Pallet To Planet</h1>
 
             <div className='full-img'>
               <Image src="/page/pallet_1.png" width={950} height={500} alt=' From  pallet to planet' />

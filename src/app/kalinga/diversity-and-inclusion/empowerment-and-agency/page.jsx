@@ -4,8 +4,8 @@ import { storiesDiversityInclusion } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Abante Babae: Empowerment and Agency',
-  description: 'Abante Babae: Empowerment and Agency | SMC Sustainability',
+  title: 'Abante Babae: Empowerment And Agency',
+  description: 'Abante Babae: Empowerment And Agency | SMC Sustainability',
 }
 
 export default function Index() {
@@ -17,7 +17,7 @@ export default function Index() {
 
             <h1 className='orange'>
               <small>ABANTE BABAE  </small> <br />
-              Empowerment and Agency
+              Empowerment And Agency
             </h1>
 
             <div className='full-img'>

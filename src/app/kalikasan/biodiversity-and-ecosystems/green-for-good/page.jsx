@@ -4,8 +4,8 @@ import { storiesBiodiversityEcosystems } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Green for good',
-  description: 'Green for good | SMC Sustainability',
+  title: 'Green for Good',
+  description: 'Green For Good | SMC Sustainability',
 }
 
 export default function Index() {
@@ -15,7 +15,7 @@ export default function Index() {
         <article className='article'>
           <section className='description-container'>
 
-            <h1 className='green'><small>PROJECT 747</small> <br /> Green for Good </h1>
+            <h1 className='green'><small>PROJECT 747</small> <br /> Green For Good </h1>
 
             <div className='full-img'>
               <Image src="/page/GreenForGood.png" width={950} height={500} alt='Green for Good' />

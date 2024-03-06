@@ -4,8 +4,8 @@ import { storiesCircularEconomy } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Turning Waste into Resource',
-  description: 'Turning Waste into Resource | SMC Sustainability',
+  title: 'Turning Waste Into Resource',
+  description: 'Turning Waste Into Resource | SMC Sustainability',
 }
 
 export default function Index() {
@@ -15,7 +15,7 @@ export default function Index() {
         <article className='article'>
           <section className='description-container'>
 
-            <h1 className='green'>Turning Waste into Resource</h1>
+            <h1 className='green'>Turning Waste Into Resource</h1>
 
             <div className='full-img'>
               <Image src="/page/TurninGasteintoResource.png" width={950} height={500} alt='Hazardous Waste Management' />

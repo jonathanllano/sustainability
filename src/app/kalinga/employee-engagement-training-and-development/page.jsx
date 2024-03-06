@@ -4,8 +4,8 @@ import { storiesEmployeeEngagementTraining } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Employee Engagement,  Training, & Development',
-  description: 'Employee Engagement,  Training, & Development | SMC Sustainability',
+  title: 'Employee Engagement, Training, & Development',
+  description: 'Employee Engagement, Training, & Development | SMC Sustainability',
 }
 
 export default function Index() {

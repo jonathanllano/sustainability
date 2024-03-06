@@ -4,8 +4,8 @@ import { storiesSustainableSupplyChain } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Changing the Landscape for Corn Farmers',
-  description: 'Changing the Landscape for Corn Farmers | SMC Sustainability',
+  title: 'Changing The Landscape for Corn Farmers',
+  description: 'Changing The Landscape for Corn Farmers | SMC Sustainability',
 }
 
 export default function Index() {
@@ -14,7 +14,7 @@ export default function Index() {
       <div className='block-content'>
         <article className='article'>
           <section className='description-container'>
-            <h1 className='blue'>Changing the Landscape for Corn Farmers</h1>
+            <h1 className='blue'>Changing The Landscape For Corn Farmers</h1>
 
             <Image style={{ borderRadius: '25px' }} src="/page/MarioCumlat2.png" width={547} height={540} alt='Mario Cumlat' />
 

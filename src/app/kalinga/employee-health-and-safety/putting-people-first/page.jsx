@@ -4,8 +4,8 @@ import { storiesEmployeeHealthSafety } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Putting People  First',
-  description: 'Putting People  First | SMC Sustainability',
+  title: 'Putting People First',
+  description: 'Putting People First | SMC Sustainability',
 }
 
 export default function Index() {

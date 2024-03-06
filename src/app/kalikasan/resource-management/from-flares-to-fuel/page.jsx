@@ -5,8 +5,8 @@ import Slider from '@/components/sliderStories'
 import { storiesResourceManagement } from '@/api/api'
 
 export const metadata = {
-  title: 'From Flames to Fuel',
-  description: 'From Flames to Fuel | SMC Sustainability',
+  title: 'From Flames To Fuel',
+  description: 'From Flames To Fuel | SMC Sustainability',
 }
 
 export default function Index() {
@@ -16,7 +16,7 @@ export default function Index() {
       <div className='block-content'>
         <article className='article'>
           <section className='description-container'>
-            <h1>From Flames to Fuel</h1>
+            <h1>From Flames To Fuel</h1>
 
             <div className='full-img'>
               <Image src="/page/flares_to_fuel.png" width={950} height={500} alt='Combined Bess Project' />

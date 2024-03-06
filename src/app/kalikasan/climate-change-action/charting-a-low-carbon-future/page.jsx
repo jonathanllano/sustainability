@@ -4,8 +4,8 @@ import { storiesClimateChange } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Charting a low-carbon future',
-  description: 'Charting a low-carbon future | SMC Sustainability',
+  title: 'Charting a Low-Carbon Future',
+  description: 'Charting A Low-Carbon Future | SMC Sustainability',
 }
 
 export default function Index() {
@@ -18,7 +18,7 @@ export default function Index() {
               <Image src="/page/lamao_limay.png" width={950} height={500} alt='Lamao Limay' />
             </div>
 
-            <h1 className='green'>Charting a Low-Carbon Future</h1>
+            <h1 className='green'>Charting A Low-Carbon Future</h1>
 
             <p>
               In 2022, as the Philippines takes urgent action

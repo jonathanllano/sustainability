@@ -4,8 +4,8 @@ import { storiesEmployeeHealthSafety } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Healthy minds at work',
-  description: 'Healthy minds at work | SMC Sustainability',
+  title: 'Healthy Minds At Work',
+  description: 'Healthy Minds At Work | SMC Sustainability',
 }
 
 export default function Index() {
@@ -15,7 +15,7 @@ export default function Index() {
         <article className='article'>
           <section className='description-container'>
 
-            <h1 className='orange'>Healthy Minds at Work </h1>
+            <h1 className='orange'>Healthy Minds At Work </h1>
 
             <div className='full-img'>
               <Image src="/page/aruga.png" quality={100} width={950} height={500} alt='Aruga | Healthy minds at work' />

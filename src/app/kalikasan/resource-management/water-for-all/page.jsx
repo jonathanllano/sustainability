@@ -5,8 +5,8 @@ import Slider from '@/components/sliderStories'
 import { storiesResourceManagement } from '@/api/api'
 
 export const metadata = {
-  title: 'Water Fall All',
-  description: 'Water Fall All | SMC Sustainability',
+  title: 'Water For All',
+  description: 'Water For All | SMC Sustainability',
 }
 
 export default function Index() {

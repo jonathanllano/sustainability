@@ -4,8 +4,8 @@ import { storiesCustomerWelfareResponsibility } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Raised without antibiotics',
-  description: 'Raised without antibiotics | SMC Sustainability',
+  title: 'Raised Without Antibiotics',
+  description: 'Raised Without Antibiotics | SMC Sustainability',
 }
 
 export default function Index() {

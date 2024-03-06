@@ -92,6 +92,8 @@ export default async function Page({ params }) {
   const response = await axios.get('https://sxrtmwec.forapprovalonly.net/api/article_category/sustainability-news', { revalidate: 0 });
   const newsData = response.data.articles.data;
 
+  console.log(newsData)
+
   return (
     <section className="news-update-container">
       <div className="block-content">
@@ -105,6 +107,13 @@ export default async function Page({ params }) {
                       <div className="news-title">
                         <h1> {item.title}</h1>
                       </div>
+                      {/* {item.image && (
+                        <div className='full-img'>
+                          <img src={item.image_url} alt="test" />
+
+                        </div>
+                      )} */}
+
                       <div>
                         {item.teaser_text && (
                           <p dangerouslySetInnerHTML={{ __html: item.teaser_text }} ></p>

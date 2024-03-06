@@ -819,7 +819,7 @@ export const glanceItem = [
       {
         icon: '/icons/social/4.png',
         title: '1.7:1',
-        text: 'Male to Female ratio in management'
+        text: 'Male to female ratio in management'
       },
       {
         icon: '/icons/social/5.png',
@@ -870,12 +870,12 @@ export const glanceItem = [
       {
         icon: '/icons/governance/3.png',
         title: 'Supplier Code of Conduct',
-        text: 'updated to incorporate ESG considerations'
+        text: 'Updated to incorporate ESG considerations'
       },
       {
         icon: '/icons/governance/4.png',
         title: '0',
-        text: 'complaints concerning breaches of customer privacy'
+        text: 'Complaints concerning breaches of customer privacy'
       }
     ]
   },
@@ -1894,7 +1894,7 @@ export const storiesCustomerWelfareResponsibility = [
   }, {
     id: 3,
     category: 'Kalinga',
-    title: "Don't Pass the Salt, Please",
+    title: "Don't Pass The Salt, Please",
     src: "/page/dont_pass_the_salt_thumbnail.png",
     desc: "San Miguel Foods’ efforts in reducing sodium content in processed meats align with global health recommendations and Filipino dietary preferences.",
     link: "/kalinga/customer-welfare-and-responsibility/dont-pass-the-salt-please",
@@ -1969,7 +1969,7 @@ export const storiesRiskManagement = [
     title: "Nothing Left to Chance",
     src: "/page/petron_2.png",
     desc: "In a world where risk is the norm, Petron stands out as a company that refuses to leave anything to chance.",
-    link: "/kasaganahan/risk-manangement/nothing-left-to-chance/",
+    link: "/kasaganahan/risk-manangement/nothing-left-to-chance",
     date_created: "September 20, 2023"
   }
 ]

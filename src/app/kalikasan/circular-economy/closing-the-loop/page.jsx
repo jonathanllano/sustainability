@@ -5,7 +5,7 @@ import Slider from '@/components/sliderStories'
 
 export const metadata = {
   title: 'Closing the Loop',
-  description: 'Closing the Loop | SMC Sustainability',
+  description: 'Closing The Loop | SMC Sustainability',
 }
 
 export default function Index() {
@@ -15,7 +15,7 @@ export default function Index() {
         <article className='article'>
           <section className='description-container'>
 
-            <h1 className='green'>Closing the Loop</h1>
+            <h1 className='green'>Closing The Loop</h1>
 
             <div className='full-img'>
               <Image src="/page/Segregation_Bins.png" width={950} height={500} alt='Segregation Bins' />

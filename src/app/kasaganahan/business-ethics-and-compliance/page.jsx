@@ -12,7 +12,7 @@ export default function Index() {
       <div className='block-content'>
         <article className='article'>
           <section className='description-container'>
-            <h1>Business Ethics and Compliance</h1>
+            <h1>Business Ethics And Compliance</h1>
 
             <p>San Miguel Corporation stands firm in its
               commitment to the highest standards of

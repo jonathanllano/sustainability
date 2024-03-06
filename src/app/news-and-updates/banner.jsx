@@ -8,13 +8,13 @@ import Link from 'next/link';
 // import image_url from '/images/news_update_banner.png'
 // import Loading from '../loading';
 
-export async function getLatestNews() {
-  const res = await fetch('https://sxrtmwec.forapprovalonly.net/api/article_category/sustainability-news', { cache: 'no-store', }).then((data) => {
-    if (!data.ok) throw new Error('Failed data fetch...')
-    return data.json()
-  });
-  return res?.articles?.data || [];
-}
+// export async function getLatestNews() {
+//   const res = await fetch('https://sxrtmwec.forapprovalonly.net/api/article_category/sustainability-news', { cache: 'no-store', }).then((data) => {
+//     if (!data.ok) throw new Error('Failed data fetch...')
+//     return data.json()
+//   });
+//   return res?.articles?.data || [];
+// }
 
 export default function NewsBanner() {
   // const [latestNews, setLatestNews] = useState([]);
@@ -52,33 +52,33 @@ export default function NewsBanner() {
   //   // return <p>Loading..</p>;
 
   //   console.log('tet')
-  // }
+  // }s
 
   // console.log(latestNews)
 
   // const { title, image_url, date, slug } = latestNews;
 
-  const [latestNews, setLatestNews] = useState(null);
+  // const [latestNews, setLatestNews] = useState(null);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const newsData = await getLatestNews();
-        setLatestNews(newsData[0]); // Access the first element of the array
-      } catch (error) {
-        console.error('Error fetching latest news:', error);
-      }
-    };
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     try {
+  //       const newsData = await getLatestNews();
+  //       setLatestNews(newsData[0]); // Access the first element of the array
+  //     } catch (error) {
+  //       console.error('Error fetching latest news:', error);
+  //     }
+  //   };
 
-    fetchData();
-  }, []);
+  //   fetchData();
+  // }, []);
 
-  if (!latestNews) {
-    // You can return a loading state or an empty div here
-    return null;
-  }
+  // if (!latestNews) {
+  //   // You can return a loading state or an empty div here
+  //   return null;
+  // }
 
-  const { title } = latestNews;
+  // const { title } = latestNews;
 
   // Static sanmiguel news - Ms. Joie
 
@@ -97,7 +97,9 @@ export default function NewsBanner() {
               transition={{ delay: 0.2 }}
               exit={{ y: 30, opacity: 0 }}
             >
-              {latestNews.title.replace(/<\/?[^>]+>/gi, '')}
+              {/* {latestNews.title.replace(/<\/?[^>]+>/gi, '')} */}
+              SMGP secures P40 billion financing for BESS projects
+
             </motion.h2>
 
             <motion.p
@@ -106,7 +108,8 @@ export default function NewsBanner() {
               transition={{ delay: 0.3 }}
               exit={{ y: 30, opacity: 0 }}
             >
-              {latestNews.date}
+              {/* {latestNews.date} */}
+              2023-11-02
             </motion.p>
             <motion.div
               initial={{ y: 30, opacity: 0 }}
@@ -115,9 +118,13 @@ export default function NewsBanner() {
               exit={{ y: 30, opacity: 0 }}
               className="action"
             >
-              <Link href={`/news-and-updates/${latestNews.slug}`} title="Read more" className="bordered-button">
+              <Link href={`/news-and-updates/sharing-prosperity/`} title="Read more" className="bordered-button">
                 Read More
               </Link>
+
+              {/* <Link href={`/news-and-updates/${latestNews.slug}`} title="Read more" className="bordered-button">
+                Read More
+              </Link> */}
             </motion.div>
           </div>
         </div>
@@ -126,10 +133,11 @@ export default function NewsBanner() {
           <div className="image-container">
             {/* <img src="" alt="" /> */}
             {/* <Image src='/news_update_banner.png' width='576' height='375' alt={title} style={{ minHeight: '375px', position: 'relative' }} /> */}
-            {!latestNews.image_webp_url ?
+            {/* {!latestNews.image_webp_url ?
               <Image src='placeholder.png' alt='SMC Placeholder Logo' width={476} height={375} />
               :
-              <img src={`${process.env.NEXT_PUBLIC_API}${latestNews.image_webp_url}`} alt={latestNews.title} style={{ width: "100%" }} />}
+              <img src={`${process.env.NEXT_PUBLIC_API}${latestNews.image_webp_url}`} alt={latestNews.title} style={{ width: "100%" }} />} */}
+            <Image src='placeholder.png' alt='SMC Placeholder Logo' width={476} height={375} />
           </div>
         </div>
       </div>

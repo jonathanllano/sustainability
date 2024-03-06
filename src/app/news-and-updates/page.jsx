@@ -8,7 +8,7 @@ import Link from 'next/link'
 import NewsList from './newsList'
 
 export const metadata = {
-  title: 'News and Updates',
+  title: 'News And Updates',
   description: 'News and Updates | SMC Sustainability',
 }
 
@@ -26,7 +26,7 @@ export default function page() {
 
       <div className="block-content">
         <div className="news-title">
-          <h1>News & updates</h1>
+          <h1>News & Updates</h1>
         </div>
 
         <NewsBanner />

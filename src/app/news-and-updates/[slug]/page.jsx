@@ -92,8 +92,6 @@ export default async function Page({ params }) {
   const response = await axios.get('https://sxrtmwec.forapprovalonly.net/api/article_category/sustainability-news', { revalidate: 0 });
   const newsData = response.data.articles.data;
 
-  console.log(newsData)
-
   return (
     <section className="news-update-container">
       <div className="block-content">

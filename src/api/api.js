@@ -162,11 +162,11 @@ export const navItems = [
             href: "/kalinga/our-employees",
           },
           {
-            title: "Human Rights and Labor Practices",
+            title: "Human Rights And Labor Practices",
             href: "/kalinga/human-rights-and-labor-practices",
           },
           {
-            title: "Employee Health and Safety",
+            title: "Employee Health And Safety",
             href: "/kalinga/employee-health-and-safety",
           },
           {
@@ -174,11 +174,11 @@ export const navItems = [
             href: "/kalinga/employee-engagement-training-and-development",
           },
           {
-            title: "Diversity and Inclusion",
+            title: "Diversity And Inclusion",
             href: "/kalinga/diversity-and-inclusion",
           },
           {
-            title: "Customer Welfare and Responsibility",
+            title: "Customer Welfare And Responsibility",
             href: "/kalinga/customer-welfare-and-responsibility",
           },
           {
@@ -208,7 +208,7 @@ export const navItems = [
             href: "/kasaganahan/digital-transformation",
           },
           {
-            title: "Data Privacy and Security",
+            title: "Data Privacy And Security",
             href: "/kasaganahan/data-privacy-and-security",
           }
         ]
@@ -218,7 +218,7 @@ export const navItems = [
         href: "/news-and-updates",
         subNav2: [
           {
-            title: "San Miguel in the News",
+            title: "San Miguel In The News",
             href: "/news-and-updates/sanmiguel-in-the-news",
           }
         ]
@@ -1660,7 +1660,7 @@ export const storiesResourceManagement = [
   {
     id: 1,
     category: 'Kalikasan',
-    title: "From Flares to Fuel",
+    title: "From Flares To Fuel",
     src: "/page/flaresfuel.png",
     desc: "Petron Bataan Refinery’s Flare Gas Recovery Facility recycles waste gases into fuel, significantly reducing carbon emissions and energy consumption.",
     link: "/kalikasan/resource-management/from-flares-to-fuel",
@@ -1669,7 +1669,7 @@ export const storiesResourceManagement = [
   {
     id: 2,
     category: 'Kalikasan',
-    title: "Water for All",
+    title: "Water For All",
     src: "/page/waterforall.png",
     desc: "San Miguel’s comprehensive water sustainability program includes recycling, rainwater harvesting, and reducing groundwater use, aiming to cut utility water use by 50% by 2025.",
     link: "/kalikasan/resource-management/water-for-all",
@@ -1699,7 +1699,7 @@ export const storiesClimateChange = [
   {
     id: 1,
     category: 'Kalikasan',
-    title: "Charting a Low Carbon Future",
+    title: "Charting A Low Carbon Future",
     src: "/page/charting_low_carbon_thumbnail.png",
     desc: "San Miguel Global Power accelerates its battery energy storage system (BESS) projects to bolster renewable energy integration and enhance power quality in the Philippines, aiming for a decarbonized and resilient power system.",
     link: "/kalikasan/climate-change-action/charting-a-low-carbon-future",
@@ -1719,7 +1719,7 @@ export const storiesCircularEconomy = [
   {
     id: 1,
     category: 'Kalikasan',
-    title: "Turning Waste into Resource",
+    title: "Turning Waste Into Resource",
     src: "/page/turning_waste_into_resource_thumbnail.png",
     desc: "San Miguel Global Power's Limay and Malita Power Plants recycle a majority of their coal ash for cement production, minimizing environmental impact.",
     link: "/kalikasan/circular-economy/turning-waste-into-resource",
@@ -1728,7 +1728,7 @@ export const storiesCircularEconomy = [
   {
     id: 2,
     category: 'Kalikasan',
-    title: "From Byproduct to Benefit",
+    title: "From Byproduct To Benefit",
     src: "/page/from_byproduct_to_benefit_thumbnail.png",
     desc: "San Miguel Brewery’s recycling program converts wastewater sludge and spent grain from breweries into useful products like organic fertilizer and animal feed.",
     link: "/kalikasan/circular-economy/from-byproduct-to-benefit",
@@ -1737,7 +1737,7 @@ export const storiesCircularEconomy = [
   {
     id: 3,
     category: 'Kalikasan',
-    title: "Closing the Loop",
+    title: "Closing The Loop",
     src: "/page/closing_the_loop_thumbnail.png",
     desc: "San Miguel Yamamura Packaging Corporation promotes glass recycling through initiatives like Balik Bote Program, promoting a circular economy.",
     link: "/kalikasan/circular-economy/closing-the-loop",
@@ -1755,7 +1755,7 @@ export const storiesCircularEconomy = [
   {
     id: 5,
     category: 'Kalikasan',
-    title: "From Pallet to Planet",
+    title: "From Pallet To Planet",
     src: "/page/from_pallet_to_planet_thumbnail.png",
     desc: "Manila Plastics Plant’s recycling programs convert condemned plastic products into new pallets or crates.",
     link: "/kalikasan/circular-economy/from-pallet-to-planet",
@@ -1776,7 +1776,7 @@ export const storiesBiodiversityEcosystems = [
   {
     id: 2,
     category: 'Kalikasan',
-    title: "Project 747: Green for Good",
+    title: "Project 747: Green For Good",
     src: "/page/green_for_good.png",
     desc: "Over six million trees planted nationwide by San Miguel Global Power under Project 747 contribute to reforesting degraded lands and mitigating climate change impacts.",
     link: "/kalikasan/biodiversity-and-ecosystems/green-for-good",
@@ -1785,7 +1785,7 @@ export const storiesBiodiversityEcosystems = [
   {
     id: 3,
     category: 'Kalikasan',
-    title: "Casting a Safety Net",
+    title: "Casting A Safety Net",
     src: "/page/casting_safety_net.png",
     desc: "Distileria Bago Inc.'s Fishnet Assistance Program supports local fishermen in Negros Occidental by providing access to fishnets, enhancing their livelihoods.",
     link: "/kalikasan/biodiversity-and-ecosystems/casting-a-safety-net",
@@ -1841,7 +1841,7 @@ export const storiesEmployeeHealthSafety = [
   {
     id: 2,
     category: 'Kalinga',
-    title: "Healthy Minds at Work",
+    title: "Healthy Minds At Work",
     src: "/page/healthy_minds_at_work_thumbnail.png",
     desc: "SMC’s Mental Health Support Program, launched during the COVID-19 pandemic, offers various well-being initiatives to foster a healthy work environment.",
     link: "/kalinga/employee-health-and-safety/healthy-minds-at-work",
@@ -1853,7 +1853,7 @@ export const storiesEmployeeEngagementTraining = [
   {
     id: 1,
     category: 'Kalinga',
-    title: "Raising the bar",
+    title: "Raising The Bar",
     src: "/page/raising_the_bar_thumbnail.png",
     desc: "SMC's in-house schools, such as San Miguel School of Brewing and San Miguel Foods University, offer specialized training and professional development for employees.",
     link: "/kalinga/employee-engagement-training-and-development/rasing-the-bar",
@@ -1866,7 +1866,7 @@ export const storiesDiversityInclusion = [
   {
     id: 1,
     category: 'Kalinga',
-    title: "Abante Babae: Empowerment and Agency",
+    title: "Abante Babae: Empowerment And Agency",
     src: "/page/abante_babae_thumbnail.png",
     desc: "SMC’s Better World Cubao center offers programs focusing on health, empowerment, and recovery for women, promoting a sense of community and self-sufficiency.",
     link: "/kalinga/diversity-and-inclusion/empowerment-and-agency",
@@ -1902,7 +1902,7 @@ export const storiesCustomerWelfareResponsibility = [
   }, {
     id: 4,
     category: 'Kalinga',
-    title: "Purpose in a Bottle",
+    title: "Purpose In A Bottle",
     src: "/page/purpose_in_a_bottle_thumbnail.png",
     desc: "San Mig Light, a low-calorie beer from San Miguel Brewery, aligns with social causes like inclusivity and empowerment, influencing cultural norms and societal conversations.",
     link: "/kalinga/customer-welfare-and-responsibility/purpose-in-a-bottle",
@@ -1945,7 +1945,7 @@ export const storiesSustainableSupplyChain = [
   {
     id: 1,
     category: 'Kasaganahan',
-    title: "Changing the Landscape for Corn Farmers",
+    title: "Changing The Landscape for Corn Farmers",
     src: "/page/corn_farmers.png",
     desc: "San Miguel Foods’ direct corn-buying program offers farmers better margins and quicker payments, improving their livelihoods and financial stability.",
     link: "/kasaganahan/sustainable-supply-chain/changing-the-landscape-for-corn-farmers",
@@ -1966,7 +1966,7 @@ export const storiesRiskManagement = [
   {
     id: 1,
     category: "Kasaganahan",
-    title: "Nothing Left to Chance",
+    title: "Nothing Left To Chance",
     src: "/page/petron_2.png",
     desc: "In a world where risk is the norm, Petron stands out as a company that refuses to leave anything to chance.",
     link: "/kasaganahan/risk-manangement/nothing-left-to-chance",

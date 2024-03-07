@@ -111,6 +111,18 @@ export default function NewsList() {
           </div>
         </div>
 
+        <div className="tab-item">
+          <div className="image-container">
+            <Link href='/news-and-updates/a-step-toward-food-security/' title='Link'></Link>
+            <Image src='smc_placeholder.png' width='184' height='188' alt='Thumbnail' />
+          </div>
+          <div className="description-container">
+            <p>2023-11-02</p>
+            <h5>SMGP secures P40 billion financing for BESS projects</h5>
+            <Link href={`/news-and-updates/smgp-secures-40-billion-financing-for-bess-projects/`} title="Read More">Read More</Link>
+          </div>
+        </div>
+
 
         {/* {isLoading ? (
           <p>Loading...</p>

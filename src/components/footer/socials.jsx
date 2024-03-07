@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 export default function SocialsLink() {
   return (
     <>
-      <Link title="San Miguel Corporation" href="https://www.sanmiguel.com.ph" target="_blank" >
+      <Link title="San Miguel Corporation" href="#" target="_blank" >
         <motion.svg
           whileHover={{ scale: 1.25 }}
           width="45" height="45" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,7 +22,7 @@ export default function SocialsLink() {
       </Link>
 
 
-      <Link title="Facebook" href="https://www.facebook.com/officialsanmiguelcorp" target="_blank">
+      <Link title="Facebook" href="#" target="_blank">
         <motion.svg
           whileHover={{ scale: 1.25 }}
           xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
@@ -31,7 +31,7 @@ export default function SocialsLink() {
         </motion.svg>
       </Link>
 
-      <Link title="Instagram" href="https://www.instagram.com/officialsanmiguelcorp/" target="_blank">
+      <Link title="Instagram" href="#" target="_blank">
         <motion.svg
           whileHover={{ scale: 1.25 }}
           xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
@@ -40,7 +40,7 @@ export default function SocialsLink() {
         </motion.svg>
       </Link>
 
-      <Link title="Youtube" href="https://www.youtube.com/c/officialsanmiguelcorp" target="_blank">
+      <Link title="Youtube" href="#" target="_blank">
         <motion.svg
           whileHover={{ scale: 1.25 }}
           xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
@@ -48,7 +48,7 @@ export default function SocialsLink() {
           <path fillRule="evenodd" clipRule="evenodd" d="M31.8765 14.765C32.9092 15.0484 33.7225 15.8834 33.9985 16.9437C34.5 18.8654 34.5 22.875 34.5 22.875C34.5 22.875 34.5 26.8845 33.9985 28.8064C33.7225 29.8667 32.9092 30.7017 31.8765 30.9852C30.005 31.5 22.5 31.5 22.5 31.5C22.5 31.5 14.995 31.5 13.1234 30.9852C12.0907 30.7017 11.2774 29.8667 11.0014 28.8064C10.5 26.8845 10.5 22.875 10.5 22.875C10.5 22.875 10.5 18.8654 11.0014 16.9437C11.2774 15.8834 12.0907 15.0484 13.1234 14.765C14.995 14.25 22.5 14.25 22.5 14.25C22.5 14.25 30.005 14.25 31.8765 14.765ZM20.25 19.5V27L26.25 23.2501L20.25 19.5Z" fill="#464646" />
         </motion.svg></Link>
 
-      <Link title="LinkedIn" href="https://www.linkedin.com/company/san-miguel-corporation" target="_blank">
+      <Link title="LinkedIn" href="#" target="_blank">
         <motion.svg
           whileHover={{ scale: 1.25 }}
           xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
@@ -59,7 +59,7 @@ export default function SocialsLink() {
         </motion.svg>
       </Link>
 
-      <Link title="Viber" href="https://invite.viber.com/?g2=AQBXThuOs%2FUC4EtMJHTcT1HGS%2BIm%2FqfGjmtyzIEmWP6lt9lijjc74sqm3o9mOJaq" target="_blank">
+      <Link title="Viber" href="#" target="_blank">
         <motion.svg
           whileHover={{ scale: 1.25 }}
           width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">

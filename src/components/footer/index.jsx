@@ -58,9 +58,9 @@ export default function Index() {
               </Link> */}
             </div>
 
-            <div className='socials-container'>
+            {/* <div className='socials-container'>
               <SocialsLink />
-            </div>
+            </div> */}
           </div>
 
           {/* <div className="footer-logo">
@@ -70,8 +70,8 @@ export default function Index() {
           </div> */}
 
           <div className="subsidiary-website">
-            <Subsidiary /> <br />
-            <Link className="btn subsidiary policies" href='https://www.sanmiguel.com.ph/page/company-policy' target='_blank'>View Corporate Policies
+            {/* <Subsidiary /> <br /> */}
+            {/* <Link className="btn subsidiary policies" href='https://www.sanmiguel.com.ph/page/company-policy' target='_blank'>View Corporate Policies
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                 <g clipPath="url(#clip0_1_536)">
                   <path d="M3.125 10H16.875" stroke="#2E2E2F" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -83,7 +83,7 @@ export default function Index() {
                   </clipPath>
                 </defs>
               </svg>
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -247,7 +247,7 @@ export default function Index() {
 
         <div className="copyright">
           <div className="container">
-            Copyright &copy;{getYear()} San Miguel Corporation All rights reserved  |   <Link href="https://www.sanmiguel.com.ph/" title="San Miguel Corporation">San Miguel Corporation</Link>   | <Link href="/kasaganahan/data-privacy-and-security" title="Website Privacy Statement">Website Privacy Statement</Link>
+            Copyright &copy;{getYear()} San Miguel Corporation All rights reserved  |   <Link href="#" title="San Miguel Corporation">San Miguel Corporation</Link>   | <Link href="/kasaganahan/data-privacy-and-security" title="Website Privacy Statement">Website Privacy Statement</Link>
           </div>
         </div>
       </div>

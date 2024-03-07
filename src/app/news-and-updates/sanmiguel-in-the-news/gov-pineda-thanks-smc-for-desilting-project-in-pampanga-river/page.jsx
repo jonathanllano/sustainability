@@ -24,7 +24,7 @@ export default function Page() {
 
           <p>
             October 17, 2023 <br />
-            Access the original article  <a href="https://centralluzon.politiko.com.ph/2023/10/17/gov-pineda-thanks-smc-for-desilting-project-in-pampanga-river/daily-feed/#google_vignette" target="_blank">here</a>
+            {/* Access the original article  <a href="https://centralluzon.politiko.com.ph/2023/10/17/gov-pineda-thanks-smc-for-desilting-project-in-pampanga-river/daily-feed/#google_vignette" target="_blank">here</a> */}
 
           </p>
 

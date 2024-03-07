@@ -25,7 +25,7 @@ export default function page() {
           <p>
             By: Micah Avry Guiao <br />
             Published Sep 18, 2023 <br />
-            Access the original article <a href="https://www.spot.ph/newsfeatures/adulting/106382/philippine-companies-in-time-best-companies-of-2023-a5229-20230918 " target="_blank">here</a>
+            {/* Access the original article <a href="https://www.spot.ph/newsfeatures/adulting/106382/philippine-companies-in-time-best-companies-of-2023-a5229-20230918 " target="_blank">here</a> */}
           </p>
 
           <p>

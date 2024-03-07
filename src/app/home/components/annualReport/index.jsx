@@ -58,7 +58,7 @@ export default function AnnualReport() {
             transition={{ ease: "linear", duration: .25 }}
             style={{ x }}>
             <Magnetic>
-              <Link className='btn-rounded' target='_blank' href="https://www.sanmiguel.com.ph/files/reports/SMC_2022_SR_1012A_single.pdf" title='Read More'>
+              <Link className='btn-rounded' target='_blank' href="#" title='Read More'>
                 <span>Read more</span>
               </Link>
             </Magnetic>

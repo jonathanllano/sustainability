@@ -1133,7 +1133,7 @@ export const footerItemsRight = [
     email: 'dpo@sanmiguel.com.ph',
     image: '',
     titleLink: 'NPC Seal of Registration',
-    link: 'https://www.sanmiguel.com.ph/page/npc-seal',
+    link: '#',
     text: ' ',
     address: ' ',
   }

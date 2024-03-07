@@ -5,7 +5,7 @@ export default function Page() {
     <div>
       <section class="news-update-container"><div class="block-content"><div class="description-text"><div><div class="news-title"><h1>BIZ BUZZ: Petron sweeps consumer choice awards</h1></div><div><p>Philippine Daily Inquirer <br />
         02:11 AM October 24, 2023<br />
-        Access the original article <a title="Link" href="https://business.inquirer.net/428243/bizbuzz-petron-sweeps-consumer-choice-awards" target="_blank">here</a>
+        {/* Access the original article <a title="Link" href="https://business.inquirer.net/428243/bizbuzz-petron-sweeps-consumer-choice-awards" target="_blank">here</a> */}
         <br /><br />
         Every year, international brand research firm Standard Insights ranks the best products and services according to market perception in their Consumer Choice Awards.
         <br /><br />

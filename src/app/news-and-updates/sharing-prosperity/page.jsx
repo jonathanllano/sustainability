@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <section class="news-update-container"><div class="block-content"><div class="description-text"><div><div class="news-title"><h1> SMGP secures P40 billion financing for BESS projects</h1></div><div><p>Richmond Mercurio - The Philippine Star<br />
       November 2, 2023 | 12:00 am<br />
-      Access the original article <a title="Link" href="https://www.philstar.com/business/2023/11/02/2308223/smgp-secures-p40-billion-financing-bess-projects#:~:text=(SMGP)%2C%20the%20energy%20arm,subsidiary%20Universal%20Power%20Solutions%20Inc." target="_blank">here</a>
+      {/* Access the original article <a title="Link" href="https://www.philstar.com/business/2023/11/02/2308223/smgp-secures-p40-billion-financing-bess-projects#:~:text=(SMGP)%2C%20the%20energy%20arm,subsidiary%20Universal%20Power%20Solutions%20Inc." target="_blank">here</a> */}
       <br /><br />
 
       MANILA, Philippines — San Miguel Global Power Holdings Corp. (SMGP), the energy arm of conglomerate San Miguel Corp., has secured up to P40 billion project financing from local banks to fund the development of its battery energy storage system (BESS) projects.

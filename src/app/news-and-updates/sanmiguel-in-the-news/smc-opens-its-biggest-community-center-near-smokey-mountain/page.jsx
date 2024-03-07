@@ -21,7 +21,7 @@ export default function Page() {
           <p>
             BY JAMES A. LOYOLA <br />
             October 2, 2023, 00:27 AM <br />
-            Access the original article <a href="https://mb.com.ph/2023/10/1/smc-opens-its-biggest-community-center-in-tondo " target="_blank">here</a>
+            {/* Access the original article <a href="https://mb.com.ph/2023/10/1/smc-opens-its-biggest-community-center-in-tondo " target="_blank">here</a> */}
           </p>
 
           <p>

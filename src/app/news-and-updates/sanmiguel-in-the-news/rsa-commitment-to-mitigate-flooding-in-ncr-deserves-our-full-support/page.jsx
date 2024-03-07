@@ -24,7 +24,7 @@ export default function Page() {
           <p>
             Dr. Jesus Lim Arranza <br />
             October 11, 2023 <br />
-            Access the original article <a href="https://businessmirror.com.ph/2023/10/11/rsas-commitment-to-mitigate-flooding-in-ncr-deserves-our-full-support/#:~:text=RSA's%20commitment%20to%20mitigate%20flooding%20in%20NCR%20deserves%20our%20full%20support,-Dr.&text=Ramon%20Ang's%20San%20Miguel%20Co" target="_blank">here</a>
+            {/* Access the original article <a href="https://businessmirror.com.ph/2023/10/11/rsas-commitment-to-mitigate-flooding-in-ncr-deserves-our-full-support/#:~:text=RSA's%20commitment%20to%20mitigate%20flooding%20in%20NCR%20deserves%20our%20full%20support,-Dr.&text=Ramon%20Ang's%20San%20Miguel%20Co" target="_blank">here</a> */}
           </p>
 
           <p>

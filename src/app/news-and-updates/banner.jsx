@@ -98,7 +98,7 @@ export default function NewsBanner() {
               exit={{ y: 30, opacity: 0 }}
             >
               {/* {latestNews.title.replace(/<\/?[^>]+>/gi, '')} */}
-              SMGP secures P40 billion financing for BESS projects
+              San Miguel expands bid to clean up, rehabilitate major Luzon rivers
 
             </motion.h2>
 
@@ -109,7 +109,7 @@ export default function NewsBanner() {
               exit={{ y: 30, opacity: 0 }}
             >
               {/* {latestNews.date} */}
-              2023-11-02
+              2023-10-22
             </motion.p>
             <motion.div
               initial={{ y: 30, opacity: 0 }}
@@ -118,7 +118,7 @@ export default function NewsBanner() {
               exit={{ y: 30, opacity: 0 }}
               className="action"
             >
-              <Link href={`/news-and-updates/sharing-prosperity/`} title="Read more" className="bordered-button">
+              <Link href={`/news-and-updates/san-miguel-expands-bid-to-clean-up-rehabilitate-major-luzon-rivers/`} title="Read more" className="bordered-button">
                 Read More
               </Link>
 
@@ -137,7 +137,8 @@ export default function NewsBanner() {
               <Image src='placeholder.png' alt='SMC Placeholder Logo' width={476} height={375} />
               :
               <img src={`${process.env.NEXT_PUBLIC_API}${latestNews.image_webp_url}`} alt={latestNews.title} style={{ width: "100%" }} />} */}
-            <Image src='placeholder.png' alt='SMC Placeholder Logo' width={476} height={375} />
+
+            <img style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center" }} src='https://ik.imagekit.io/smcsustainability/images/news/rehabilitate-luzon-rivers.png?updatedAt=1708600204968' alt='SMC Placeholder Logo' />
           </div>
         </div>
       </div>

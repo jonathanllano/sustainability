@@ -1,11 +1,16 @@
 import React from 'react'
+import Image from 'next/image'
+
 
 export default function Page() {
   return (
-    <section class="news-update-container"><div class="block-content"><div class="description-text"><div><div class="news-title"><h1> San Miguel expands bid to clean up, rehabilitate major Luzon rivers</h1></div><div><p>By: Manila Standard<br />
+    <section className="news-update-container"><div className="block-content"><div className="description-text"><div><div className="news-title"><h1> San Miguel expands bid to clean up, rehabilitate major Luzon rivers</h1></div><div><p>By: Manila Standard<br />
       October 22, 2023, 8:50 pm<br />
       Access the original article
       <a href="https://manilastandard.net/spotlight/environmental-and-sustainability/314382512/san-miguel-expands-bid-to-clean-up-rehabilitate-major-luzon-rivers.html " target="_blank">here</a>
+
+
+      <img style={{ borderRadius: "25px", marginTop: "1rem" }} src="https://ik.imagekit.io/smcsustainability/images/news/rehabilitate-luzon-rivers.png?updatedAt=1708600204968" alt='Petron' />
 
 
 

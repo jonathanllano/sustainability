@@ -24,7 +24,7 @@ export default function Page() {
           <p>
             BY JAMES A. LOYOLA <br />
             November 28, 2023,  03:43 PM <br />
-            {/* Access the original article <a href="https://mb.com.ph/2023/11/27/smc-tops-ph-firms-in-forbes-world-s-best-employers-list" target="_blank">here</a> */}
+            Access the original article <a href="https://mb.com.ph/2023/11/27/smc-tops-ph-firms-in-forbes-world-s-best-employers-list" target="_blank">here</a>
 
           </p>
 

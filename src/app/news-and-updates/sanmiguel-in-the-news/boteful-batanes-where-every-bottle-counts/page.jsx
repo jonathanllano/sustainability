@@ -23,7 +23,7 @@ export default function Page() {
 
           <p>
             November 8, 2023 <br />
-            {/* Access the original article <a href="https://malaya.com.ph/news_special_feature/boteful-batanes-where-every-bottle-counts-ginebra-para-sa-kalikasan/ " target="_blank">here</a> */}
+            Access the original article <a href="https://malaya.com.ph/news_special_feature/boteful-batanes-where-every-bottle-counts-ginebra-para-sa-kalikasan/ " target="_blank">here</a>
           </p>
 
           <p>

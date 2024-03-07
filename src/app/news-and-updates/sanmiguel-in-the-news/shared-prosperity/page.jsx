@@ -21,7 +21,7 @@ export default function Page() {
         <div className='description-text'>
           <p>DEMAND AND SUPPLY - Boo Chanco - The Philippine Star <br />
             November 10, 2023 | 12:00 am <br />
-            {/* Access the original article <a href="https://www.philstar.com/business/2023/11/10/2310201/sharing-prosperity" target="_blank">here</a> */}
+            Access the original article <a href="https://www.philstar.com/business/2023/11/10/2310201/sharing-prosperity" target="_blank">here</a>
           </p>
 
           <p>

@@ -21,7 +21,7 @@ export default function Page() {
           <p>
             By: Benedicta Du-Baladad - @inquirerdotnet <br />
             Philippine Daily Inquirer / 02:01 AM November 06, 2023 <br />
-            {/* Access the original article <a href="https://business.inquirer.net/430106/shared-prosperity-what-ceos-should-do" target="_blank">here</a> */}
+            Access the original article <a href="https://business.inquirer.net/430106/shared-prosperity-what-ceos-should-do" target="_blank">here</a>
           </p>
 
           <p>Companies are easily drawn into conversations about sustainability—actions to provide access to economic opportunities, quality education, health care and social services, among others. Yet, why do most of us don’t address income and wealth in societies? Why is there so little effort in creating social mobility and eliminating inequality and barriers?

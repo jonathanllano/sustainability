@@ -24,7 +24,7 @@ export default function page() {
             By: Manila Standard <br />
             October 22, 2023, 8:50 pm
 
-            {/* Access the original article <a href="https://manilastandard.net/spotlight/environmental-and-sustainability/314382512/san-miguel-expands-bid-to-clean-up-rehabilitate-major-luzon-rivers.html" target="_blank">here</a> */}
+            Access the original article <a href="https://manilastandard.net/spotlight/environmental-and-sustainability/314382512/san-miguel-expands-bid-to-clean-up-rehabilitate-major-luzon-rivers.html" target="_blank">here</a>
           </p>
 
           <p>

@@ -24,7 +24,7 @@ export default function page() {
           <p>
             BY JAMES A. LOYOLA <br />
             Sep 16, 2023, 07:24 PM <br />
-            {/* Access the original article <a href="https://mb.com.ph/2023/9/16/pldt-makes-time-magazine-s-world-s-best-companies-list " target="_blank">here</a> */}
+            Access the original article <a href="https://mb.com.ph/2023/9/16/pldt-makes-time-magazine-s-world-s-best-companies-list " target="_blank">here</a>
           </p>
 
           <p>

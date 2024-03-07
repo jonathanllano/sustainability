@@ -18,11 +18,11 @@ export default function Page() {
         </div>
 
         <div className='description-text'>
-          {/* <p>
+          <p>
             By Melandrew Velasco <br />
             October 14, 2023, 12:00 am <br />
             Access the original article <a href="https://manilastandard.net/opinion/columns/everyman/314379701/better-world-community-centers-for-a-better-ph.html    " target="_blank">here</a>
-          </p> */}
+          </p>
 
           <p>
             In Better World community centers, activities are undertaken in collaboration with different non-government organizations

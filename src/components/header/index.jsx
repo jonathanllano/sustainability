@@ -110,7 +110,7 @@ export default function Index() {
           transition={{ duration: 0.25, ease: "easeOut" }}
           className="logo logo-2"
         >
-          <Link href="#" title='San Miguel Corporation'>
+          <Link href="/" title='San Miguel Corporation'>
             <Image className='first' src='smc.svg' width={53} height={55} quality={100} priority={true} alt='SMC Logo' />
             <Image className='last' src='smc.svg' width={32} height={46} quality={100} priority={true} alt='SMC Logo' />
           </Link>

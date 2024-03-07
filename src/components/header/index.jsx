@@ -110,7 +110,7 @@ export default function Index() {
           transition={{ duration: 0.25, ease: "easeOut" }}
           className="logo logo-2"
         >
-          <Link href="https://www.sanmiguel.com.ph/" title='San Miguel Corporation'>
+          <Link href="#" title='San Miguel Corporation'>
             <Image className='first' src='smc.svg' width={53} height={55} quality={100} priority={true} alt='SMC Logo' />
             <Image className='last' src='smc.svg' width={32} height={46} quality={100} priority={true} alt='SMC Logo' />
           </Link>
@@ -124,7 +124,7 @@ export default function Index() {
           animate={hideNav ? "hidden" : "visible"}
           transition={{ duration: 0.25, ease: "easeInOut" }}
           className="logo">
-          <Link href="https://www.sanmiguel.com.ph/" title='San Miguel Corporation'>
+          <Link href="#" title='San Miguel Corporation'>
             <Image src='smc_logo.svg' width={63} height={65} quality={100} priority={true} alt='SMC Logo' />
             <Image src='smc_logo.svg' width={48} height={80} quality={75} priority={true} alt='SMC Logo' />
           </Link>

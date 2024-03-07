@@ -4,8 +4,7 @@ export default function Page() {
   return (
     <section class="news-update-container"><div class="block-content"><div class="description-text"><div><div class="news-title"><h1> A step toward food security</h1></div><div><p>By: Melandrew Velasco<br />
       October 20, 2023, 12:40 am <br />
-      Access the original article
-      <a title="Link" href="https://manilastandard.net/opinion/columns/everyman/314381499/a-step-toward-food-security.html" target="_blank">here</a>
+      Access the original article <a title="Link" href="https://manilastandard.net/opinion/columns/everyman/314381499/a-step-toward-food-security.html" target="_blank">here</a>
       <br /><br />
 
 

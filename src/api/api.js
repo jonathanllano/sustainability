@@ -1699,7 +1699,7 @@ export const storiesClimateChange = [
   {
     id: 1,
     category: 'Kalikasan',
-    title: "Charting A Low Carbon Future",
+    title: "Charting A Low-Carbon Future",
     src: "/page/charting_low_carbon_thumbnail.png",
     desc: "San Miguel Global Power accelerates its battery energy storage system (BESS) projects to bolster renewable energy integration and enhance power quality in the Philippines, aiming for a decarbonized and resilient power system.",
     link: "/kalikasan/climate-change-action/charting-a-low-carbon-future",

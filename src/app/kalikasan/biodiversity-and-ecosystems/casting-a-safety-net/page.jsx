@@ -4,7 +4,7 @@ import { storiesBiodiversityEcosystems } from '@/api/api'
 import Slider from '@/components/sliderStories'
 
 export const metadata = {
-  title: 'Casting A Safety net',
+  title: 'Casting A Safety Net',
   description: 'Casting A Safety Net | SMC Sustainability',
 }
 

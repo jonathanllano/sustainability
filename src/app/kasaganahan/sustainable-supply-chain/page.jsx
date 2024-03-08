@@ -19,7 +19,7 @@ export default function Index() {
             <h1>Sustainable Supply Chain</h1>
 
             <p>It has been said that without the last UN SDG,
-              SDG:17 Partnership for the Goals, achieving the
+              SDG: 17 Partnership for the Goals, achieving the
               other 16 goals would be impossible. Forging
               transformative partnerships and collaborations
               is vital in unlocking the greatest possible

@@ -21,7 +21,7 @@ export default function page() {
           <p>
             By: Janine Alexis Miguel, <br />
             October 11, 2023 <br />
-            Access the original article <a href="https://www.manilatimes.net/2023/10/11/regions/c/1914116 " target="_blank">here</a>
+            Access the original article <a href="https://www.manilatimes.net/2023/10/11/regions/mindanao-cassava-growers-given-direct-market/1914116" target="_blank">here</a>
           </p>
 
           <p>

@@ -102,7 +102,7 @@ export default function page() {
               <Link href="/news-and-updates/sanmiguel-in-the-news/shared-prosperity-what-ceos-should-do" title="Read More">Read More</Link>
             </div>
           </div>
-
+          {/* 
           <div className="tab-item">
             <div className="image-container">
               <Image src="smc_placeholder.png" height={188} width={184} alt="News and Update" />
@@ -115,11 +115,7 @@ export default function page() {
                 Read More
               </Link>
             </div>
-          </div>
-
-
-
-
+          </div> */}
 
 
           <div className="tab-item">

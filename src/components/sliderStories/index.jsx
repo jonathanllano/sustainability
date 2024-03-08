@@ -30,7 +30,7 @@ export default function Slider({ storiesItem }) {
     <>
       {storiesItem.filter((item) => pathname !== `${item.link}/`).length >= 1 && (
         <>
-          <h2>Other related stories</h2>
+          <h2>Other Related Stories</h2>
         </>
       )
       }

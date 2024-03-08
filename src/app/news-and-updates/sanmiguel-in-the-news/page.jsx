@@ -198,19 +198,19 @@ export default function page() {
             </div>
           </div>
 
-          <div className="tab-item">
+          {/* <div className="tab-item">
             <div className="image-container">
               <Image src="smc_placeholder.png" height={188} width={184} alt="News and Update" />
             </div>
-            {/* 
+
             <div className="description-container">
               <p>October 22, 2023</p>
               <h5>San Miguel expands bid to clean up, rehabilitate major Luzon rivers</h5>
               <Link href="/news-and-updates/sanmiguel-in-the-news/san-miguel-expands-bid-to-clean-up-rehabilitate-major-luzon-rivers" title="Read More">
                 Read More
               </Link>
-            </div> */}
-          </div>
+            </div>
+          </div> */}
 
         </div>
 

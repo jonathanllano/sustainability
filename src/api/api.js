@@ -772,7 +772,7 @@ export const glanceItem = [
       },
       {
         icon: '/icons/environment/4.png',
-        title: '6.5BLiters',
+        title: '6.5B Liters',
         text: 'Fresh water saved through Water for All Project'
       },
       {

@@ -77,11 +77,23 @@ export default function NewsList() {
 
         <div className="tab-item">
           <div className="image-container">
+            <Link href='/news-and-updates/a-step-toward-food-security/' title='Link'></Link>
+            <Image src='smc_placeholder.png' width='184' height='188' alt='Thumbnail' />
+          </div>
+          <div className="description-container">
+            <p>November 11, 2023</p>
+            <h5>SMGP secures P40 billion financing for BESS projects</h5>
+            <Link href={`/news-and-updates/smgp-secures-40-billion-financing-for-bess-projects/`} title="Read More">Read More</Link>
+          </div>
+        </div>
+
+        <div className="tab-item">
+          <div className="image-container">
             <Link href='/news-and-updates/biz-buzz-petron-sweeps-consumer-choice-awards' title='Link'></Link>
             <Image src='smc_placeholder.png' width='184' height='188' alt='Thumbnail' />
           </div>
           <div className="description-container">
-            <p>2023-10-24</p>
+            <p>October 24, 2023</p>
             <h5>BIZ BUZZ: Petron sweeps consumer choice awards</h5>
             <Link href={`/news-and-updates/biz-buzz-petron-sweeps-consumer-choice-awards`} title="Read More">Read More</Link>
           </div>
@@ -93,7 +105,7 @@ export default function NewsList() {
             <Image src='smc_placeholder.png' width='184' height='188' alt='Thumbnail' />
           </div>
           <div className="description-container">
-            <p>2023-10-22</p>
+            <p>October 22, 2023</p>
             <h5>San Miguel expands bid to clean up, rehabilitate major Luzon rivers</h5>
             <Link href={`/news-and-updates/san-miguel-expands-bid-to-clean-up-rehabilitate-major-luzon-rivers/`} title="Read More">Read More</Link>
           </div>
@@ -105,23 +117,13 @@ export default function NewsList() {
             <Image src='smc_placeholder.png' width='184' height='188' alt='Thumbnail' />
           </div>
           <div className="description-container">
-            <p>2023-10-20</p>
+            <p>October 20, 2023</p>
             <h5>A step toward food security</h5>
             <Link href={`/news-and-updates/a-step-toward-food-security/`} title="Read More">Read More</Link>
           </div>
         </div>
 
-        <div className="tab-item">
-          <div className="image-container">
-            <Link href='/news-and-updates/a-step-toward-food-security/' title='Link'></Link>
-            <Image src='smc_placeholder.png' width='184' height='188' alt='Thumbnail' />
-          </div>
-          <div className="description-container">
-            <p>2023-11-02</p>
-            <h5>SMGP secures P40 billion financing for BESS projects</h5>
-            <Link href={`/news-and-updates/smgp-secures-40-billion-financing-for-bess-projects/`} title="Read More">Read More</Link>
-          </div>
-        </div>
+
 
 
         {/* {isLoading ? (

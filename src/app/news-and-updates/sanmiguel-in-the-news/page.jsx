@@ -32,14 +32,21 @@ export default function page() {
 
         <div className="tabs-content">
 
+
+
+
+
           <div className="tab-item">
             <div className="image-container">
               <Image src="smc_placeholder.png" height={188} width={184} alt="News and Update" />
             </div>
+
             <div className="description-container">
-              <p>November 06, 2023</p>
-              <h5>Shared prosperity: What CEOs should do</h5>
-              <Link href="/news-and-updates/sanmiguel-in-the-news/shared-prosperity-what-ceos-should-do" title="Read More">Read More</Link>
+              <p>November 28, 2023</p>
+              <h5>These Six Philippine Companies Make It to TIME&apos;s 750 Best Companies of 2023</h5>
+              <Link href="/news-and-updates/sanmiguel-in-the-news/philippine-companies-in-time-best-companies" title="Read More">
+                Read More
+              </Link>
             </div>
           </div>
 
@@ -89,6 +96,36 @@ export default function page() {
             <div className="image-container">
               <Image src="smc_placeholder.png" height={188} width={184} alt="News and Update" />
             </div>
+            <div className="description-container">
+              <p>November 06, 2023</p>
+              <h5>Shared prosperity: What CEOs should do</h5>
+              <Link href="/news-and-updates/sanmiguel-in-the-news/shared-prosperity-what-ceos-should-do" title="Read More">Read More</Link>
+            </div>
+          </div>
+
+          <div className="tab-item">
+            <div className="image-container">
+              <Image src="smc_placeholder.png" height={188} width={184} alt="News and Update" />
+            </div>
+
+            <div className="description-container">
+              <p>October 22, 2023</p>
+              <h5>San Miguel expands bid to clean up, rehabilitate major Luzon rivers</h5>
+              <Link href="/news-and-updates/sanmiguel-in-the-news/san-miguel-expands-bid-to-clean-up-rehabilitate-major-luzon-rivers" title="Read More">
+                Read More
+              </Link>
+            </div>
+          </div>
+
+
+
+
+
+
+          <div className="tab-item">
+            <div className="image-container">
+              <Image src="smc_placeholder.png" height={188} width={184} alt="News and Update" />
+            </div>
 
             <div className="description-container">
               <p>October 17, 2023</p>
@@ -108,21 +145,6 @@ export default function page() {
               <p>October 14, 2023</p>
               <h5>Better world community centers for a better PH</h5>
               <Link href="/news-and-updates/sanmiguel-in-the-news/better-world-community-centers-for-a-better-ph" title="Read More">
-                Read More
-              </Link>
-            </div>
-          </div>
-
-          <div className="tab-item">
-            <div className="image-container">
-              <Image src="smc_placeholder.png" height={188} width={184} alt="News and Update" />
-            </div>
-
-            <div className="description-container">
-              <p>October 2, 2023</p>
-              <h5>SMC opens its biggest community center near Smokey Mountain</h5>
-              <Link href="/news-and-updates/sanmiguel-in-the-news/smc-opens-its-biggest-community-center-near-smokey-mountain"
-                title="Read More">
                 Read More
               </Link>
             </div>
@@ -162,6 +184,25 @@ export default function page() {
             </div>
 
             <div className="description-container">
+              <p>October 2, 2023</p>
+              <h5>SMC opens its biggest community center near Smokey Mountain</h5>
+              <Link href="/news-and-updates/sanmiguel-in-the-news/smc-opens-its-biggest-community-center-near-smokey-mountain"
+                title="Read More">
+                Read More
+              </Link>
+            </div>
+          </div>
+
+
+
+
+
+          <div className="tab-item">
+            <div className="image-container">
+              <Image src="smc_placeholder.png" height={188} width={184} alt="News and Update" />
+            </div>
+
+            <div className="description-container">
               <p>September 22, 2023</p>
               <h5>Pasig River&apos;s fish renaissance: Ramon Ang&apos;s resolute mission</h5>
               <Link href="/news-and-updates/sanmiguel-in-the-news/pasig-rivers-fish-renaissance-ramon-angs-resolute-mission" title="Read More">
@@ -170,19 +211,6 @@ export default function page() {
             </div>
           </div>
 
-          <div className="tab-item">
-            <div className="image-container">
-              <Image src="smc_placeholder.png" height={188} width={184} alt="News and Update" />
-            </div>
-
-            <div className="description-container">
-              <p>November 28, 2023</p>
-              <h5>These Six Philippine Companies Make It to TIME&apos;s 750 Best Companies of 2023</h5>
-              <Link href="/news-and-updates/sanmiguel-in-the-news/philippine-companies-in-time-best-companies" title="Read More">
-                Read More
-              </Link>
-            </div>
-          </div>
 
           <div className="tab-item">
             <div className="image-container">
@@ -198,19 +226,6 @@ export default function page() {
             </div>
           </div>
 
-          {/* <div className="tab-item">
-            <div className="image-container">
-              <Image src="smc_placeholder.png" height={188} width={184} alt="News and Update" />
-            </div>
-
-            <div className="description-container">
-              <p>October 22, 2023</p>
-              <h5>San Miguel expands bid to clean up, rehabilitate major Luzon rivers</h5>
-              <Link href="/news-and-updates/sanmiguel-in-the-news/san-miguel-expands-bid-to-clean-up-rehabilitate-major-luzon-rivers" title="Read More">
-                Read More
-              </Link>
-            </div>
-          </div> */}
 
         </div>
 

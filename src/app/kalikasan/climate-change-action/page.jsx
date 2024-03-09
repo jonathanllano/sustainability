@@ -7,10 +7,8 @@ export const metadata = {
 }
 
 export default function Index() {
-
   return (
     <>
-
       <h1>Climate Change Action  </h1>
 
       <p>When San Miguel began its transformation

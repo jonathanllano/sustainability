@@ -1,8 +1,7 @@
 
 import Image from 'next/image'
 import React from 'react'
-import Slider from '@/components/sliderStories'
-import { storiesResourceManagement } from '@/api/api'
+
 
 export const metadata = {
   title: 'Reviving Our Ailing Rivers',
@@ -13,7 +12,6 @@ export default function Index() {
 
   return (
     <>
-
       <h1 >Reviving Our Ailing Rivers</h1>
 
       <div className='full-img'>

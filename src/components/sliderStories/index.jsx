@@ -11,7 +11,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, A11y } from 'swiper/modules';
 
 
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -21,19 +20,17 @@ import 'swiper/css/scrollbar';
 
 import Image from 'next/image';
 
-export default function Slider({ storiesItem }) {
+export default function Slider({ stories }) {
   const pathname = usePathname();
 
   const [swiperRef, setSwiperRef] = useState(null);
 
-  return (
-    <>
-      {storiesItem.filter((item) => pathname !== `${item.link}/`).length >= 1 && (
-        <>
-          <h2>Other Related Stories</h2>
-        </>
-      )
-      }
+  const filteredStories = stories?.items.filter((item) => pathname !== item.link)
+
+
+  return stories?.items &&
+    (<div>
+      <h2>Other Related Stories</h2>
 
       <div className='slider-swiper slider-stories'>
         <Swiper
@@ -59,33 +56,31 @@ export default function Slider({ storiesItem }) {
           pagination={{ clickable: true }}
           onSwiper={(swiper) => setSwiperRef(swiper)}
         >
-          {!storiesItem ? '' :
-            storiesItem.filter((item) => pathname !== `${item.link}/`).map((item, index) => (
-              <div key={`${item.id}-${index}`}>
-                {/* {pathname !== `${item.link}/` && ( */}
-                <SwiperSlide key={index}>
-                  <figure className='stories-item'>
-                    <div className='img-wrapper'>
-                      <Link href={item.link} title={item.title}></Link>
-                      <Image src={item.src} alt={item.title} fill={true} />
-                    </div>
-                    <figcaption>
-                      <span className='date'>
-                        {item.category}
-                      </span>
-                      <p className='title'> <Link href={item.link} title={item.title}>{item.title}</Link></p>
-                      <p className='desc'>{item.desc}</p>
-                      <Link href={item.link} title="Read More"> Read More</Link>
-                      {/* <p>{`${pathname}`} <br /> {item.link}</p> */}
-                    </figcaption>
-                    <br />
-                  </figure>
-                </SwiperSlide>
-                {/* )} */}
-              </div>
-            ))
+          {filteredStories.map((item, index) => (
+            <div key={`${item.id}-${index}`}>
+              {/* {pathname !== `${item.link}/` && ( */}
+              <SwiperSlide key={index}>
+                <figure className='stories-item'>
+                  <div className='img-wrapper'>
+                    <Link href={item.link} title={item.title}></Link>
+                    <Image src={item.src} alt={item.title} fill={true} />
+                  </div>
+                  <figcaption>
+                    <span className='date'>
+                      {item.category}
+                    </span>
+                    <p className='title'> <Link href={item.link} title={item.title}>{item.title}</Link></p>
+                    <p className='desc'>{item.desc}</p>
+                    <Link href={item.link} title="Read More"> Read More</Link>
+                    {/* <p>{`${pathname}`} <br /> {item.link}</p> */}
+                  </figcaption>
+                  <br />
+                </figure>
+              </SwiperSlide>
+              {/* )} */}
+            </div>
+          ))}
 
-          }
         </Swiper >
 
         <div className='swiper-btn-next swiper-button-next bg-white/60  rounded-full'>
@@ -99,16 +94,7 @@ export default function Slider({ storiesItem }) {
           </svg>
 
         </div>
-
-        {/* {storiesItem.filter((item) => pathname !== `${item.link}/`).length >= 4 && (
-          <>
-            <div className={`swiper-button-prev ${isBeginning ? 'disabled' : ''}`} onClick={prevHandler}></div>
-            <div className={`swiper-button-next ${isEnd ? 'disabled' : ''}`} onClick={nextHandler}></div>
-          </>
-        )
-        } */}
-
-      </div >
-    </>
-  )
+      </div>
+    </div>)
 }
+

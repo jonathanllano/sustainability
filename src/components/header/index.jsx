@@ -7,9 +7,10 @@ import { motion, AnimatePresence, useScroll, useMotionValueEvent } from 'framer-
 import Image from 'next/image';
 import Link from 'next/link';
 import Magnetic from '../common/Magnetic';
-import { navItems } from '@/api/api'
-import { variantsNavHide } from './anim';
 import { useMediaQuery } from 'usehooks-ts';
+
+import navigationItems from '@/content/navigation/navigationItems';
+
 
 // import Rounded from '@/components/common/RoundedButton';
 
@@ -140,7 +141,7 @@ export default function Index() {
           className="nav-menu-container"
         >
           <div className="nav-menu">
-            {navItems.map((e, i) => (
+            {navigationItems.map((e, i) => (
               <div key={i} className='menu-item'>
 
                 <Link className='item' href={e.href}>

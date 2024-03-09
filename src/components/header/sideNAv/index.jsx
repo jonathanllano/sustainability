@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import { menuSlide } from '../anim';
 import Link from 'next/link';
 import Curve from './Curve';
-import { navItems } from '@/api/api';
+import navigationItems from '@/content/navigation/navigationItems';
 
 
 export default function Index() {
@@ -40,7 +40,7 @@ export default function Index() {
         </div> */}
 
         <div className="nav">
-          {navItems.map((data, index) => (
+          {navigationItems.map((data, index) => (
             <div key={index} className="side-menu-wrapper">
               {data.title === "News & Updates" || data.title === "Careers" ? (
                 <>

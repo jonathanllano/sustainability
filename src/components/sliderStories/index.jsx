@@ -27,8 +27,10 @@ export default function Slider({ stories }) {
 
   const filteredStories = stories?.items.filter((item) => pathname !== item.link)
 
+  console.log(filteredStories.length)
 
-  return stories?.items &&
+
+  return filteredStories.length > 0 &&
     (<div>
       <h2>Other Related Stories</h2>
 
